@@ -6,7 +6,8 @@
   "author": "Francek <prijatelj.francek@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "quasar dev -m electron",
+    "electron:dev": "quasar dev -m electron",
+    "spa:dev": "quasar dev ",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0"
@@ -28,7 +29,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-vue": "^9.10.0",
     "prettier": "^2.8.7",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.3"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",

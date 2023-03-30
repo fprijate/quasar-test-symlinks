@@ -17,7 +17,7 @@ module.exports = configure(function (/* ctx */) {
       // include = [],
       // exclude = [],
       // rawOptions = {},
-      // warnings: true,
+      //warnings: true,
       //errors: true,
     },
 
@@ -73,7 +73,7 @@ module.exports = configure(function (/* ctx */) {
         Object.assign(viteConf.resolve.alias, {
           ...viteAlias,
         });
-        viteConf.resolve.preserveSymlinks = true;
+        //viteConf.resolve.preserveSymlinks = true;
       },
       // viteVuePluginOptions: {},
 
